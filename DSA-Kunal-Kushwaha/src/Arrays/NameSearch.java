@@ -3,12 +3,11 @@ package Arrays;
 import java.util.Scanner;
 
 /*  Search Name in Array.
-    use java 25 and more to execute this programs.
     Linear Search Method.
     Time Complexity is O(n).
 */
 public class NameSearch {
-    static void main() {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         String[] names = getNames(sc);
         System.out.print("Enter Name you want to Search : ");
